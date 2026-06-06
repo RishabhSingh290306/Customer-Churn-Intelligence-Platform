@@ -324,9 +324,9 @@ Planned upgrades include:
 
 ![Churn Distribution](screenshots/Customer_churn_distribution.png)
 
-![Customer Segments](screenshots/Sustomer_segment_distribution.png)
+![Customer Segments](screenshots/Customer_segment_distribution.png)
 
-![Risk Distribution](screenshots/customer_risk_distribution.png)
+![Risk Distribution](screenshots/Customer_risk_distribution.png)
 
 ![HealthScore Distribution](screenshots/Healthscore_distribution.png)
 
