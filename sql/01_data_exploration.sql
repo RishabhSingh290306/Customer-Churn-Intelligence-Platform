@@ -105,3 +105,54 @@ SELECT
 FROM customer_churn_master
 ORDER BY MonthlyCharges
 LIMIT 10;
+
+--Cleaning tenure column for 11 values 
+
+SELECT
+    COUNT(*)
+FROM customer_churn_master
+WHERE TotalCharges = '';
+
+SELECT COUNT(*)
+FROM customer_churn_master
+WHERE TotalCharges IS NULL;
+
+SELECT COUNT(*)
+FROM customer_churn_master
+WHERE TRIM(TotalCharges) = '';
+
+SELECT *
+FROM customer_churn_master
+WHERE tenure = 0;
+
+SELECT
+    customerID,
+    tenure,
+    TotalCharges
+FROM customer_churn_master
+WHERE TRIM(TotalCharges) = '';
+
+UPDATE customer_churn_master
+SET TotalCharges = '0'
+WHERE TRIM(TotalCharges) = '';
+
+SELECT COUNT(*)
+FROM customer_churn_master
+WHERE TRIM(TotalCharges) = '';
+
+SELECT COUNT(*)
+FROM customer_churn_master
+WHERE TotalCharges = '0';
+
+--changing data type of totalCharges from character to numeric
+
+ALTER TABLE customer_churn_master
+ALTER COLUMN TotalCharges
+TYPE NUMERIC(10,2)
+USING TotalCharges::NUMERIC;
+
+SELECT
+    column_name,
+    data_type
+FROM information_schema.columns
+WHERE table_name = 'customer_churn_master';
