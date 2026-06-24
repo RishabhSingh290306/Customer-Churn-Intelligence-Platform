@@ -63,3 +63,45 @@ SELECT COUNT(*) AS month_to_month_churners
 FROM customer_churn_master
 WHERE Contract = 'Month-to-month'
 AND Churn = 'Yes';
+
+-- Unique Contract Types
+
+SELECT DISTINCT Contract
+FROM customer_churn_master;
+
+-- Unique Payment Methods
+
+SELECT DISTINCT PaymentMethod
+FROM customer_churn_master;
+
+-- Unique Internet Services
+
+SELECT DISTINCT InternetService
+FROM customer_churn_master;
+
+-- Top 10 Customers By Monthly Charges
+
+SELECT
+    customerID,
+    MonthlyCharges
+FROM customer_churn_master
+ORDER BY MonthlyCharges DESC
+LIMIT 10; 
+
+-- Top 10 Customers By Total Charges
+
+SELECT
+    customerID,
+    TotalCharges
+FROM customer_churn_master
+ORDER BY TotalCharges DESC
+LIMIT 10;
+
+-- Lowest Monthly Charges
+
+SELECT
+    customerID,
+    MonthlyCharges
+FROM customer_churn_master
+ORDER BY MonthlyCharges
+LIMIT 10;
