@@ -1,24 +1,8 @@
-CREATE OR REPLACE VIEW vw_customer_segments AS
-
-SELECT
-    customerID,
-    tenure,
-    MonthlyCharges,
-
-    CASE
-        WHEN tenure >= 60 THEN 'Champion'
-        WHEN tenure >= 36 THEN 'Loyal'
-        WHEN tenure >= 12 THEN 'Potential Loyalist'
-        WHEN tenure >= 6 THEN 'At Risk'
-        ELSE 'Lost'
-    END AS customer_segment
-
-FROM customer_churn_master;
-
-SELECT *
-FROM vw_customer_segments;
-
-CREATE OR REPLACE VIEW vw_customer_health AS
+/* =====================================
+   CUSTOMER CHURN V2
+   FILE: 04_health_score.sql
+   PURPOSE: Customer Health Score
+===================================== */
 
 SELECT
     customerID,
@@ -64,12 +48,21 @@ SELECT
 
 FROM customer_churn_master;
 
-SELECT *
-FROM vw_customer_health
-LIMIT 10;
-
 SELECT
-    risk_category,
-    COUNT(*) AS customers
-FROM vw_customer_health
-GROUP BY risk_category;
+    customerID,
+    tenure,
+    MonthlyCharges,
+    Contract,
+
+    CASE
+        WHEN tenure >= 60
+             AND Contract = 'Two year'
+        THEN 'Low Risk'
+
+        WHEN tenure >= 24
+        THEN 'Medium Risk'
+
+        ELSE 'High Risk'
+    END AS risk_category
+
+FROM customer_churn_master;
