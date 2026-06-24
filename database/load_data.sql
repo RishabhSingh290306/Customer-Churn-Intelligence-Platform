@@ -1,0 +1,3 @@
+-- Dataset imported into customer_churn_master
+-- Source: IBM Telco Customer Churn Dataset
+-- Imported using pgAdmin Import Wizard
