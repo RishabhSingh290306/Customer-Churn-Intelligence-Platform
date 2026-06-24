@@ -18,6 +18,7 @@ FROM customer_churn_master;
 SELECT *
 FROM vw_customer_segments;
 
+
 CREATE OR REPLACE VIEW vw_customer_health AS
 
 SELECT
@@ -73,3 +74,39 @@ SELECT
     COUNT(*) AS customers
 FROM vw_customer_health
 GROUP BY risk_category;
+
+
+CREATE OR REPLACE VIEW vw_revenue_risk AS
+
+SELECT
+    customerID,
+    Contract,
+    MonthlyCharges,
+    TotalCharges,
+    Churn
+
+FROM customer_churn_master
+
+WHERE Churn = 'Yes';
+
+SELECT *
+FROM vw_revenue_risk
+LIMIT 10;
+
+
+CREATE OR REPLACE VIEW vw_top_customers AS
+
+SELECT
+    customerID,
+    Contract,
+    TotalCharges,
+
+    ROW_NUMBER() OVER(
+        ORDER BY TotalCharges DESC
+    ) AS customer_rank
+
+FROM customer_churn_master;
+
+SELECT *
+FROM vw_top_customers
+WHERE customer_rank <= 10;
