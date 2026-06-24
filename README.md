@@ -1,3 +1,12 @@
+## 🚀 Project Evolution
+
+| Version | Focus |
+|----------|--------|
+| V1 | Python Analytics & Customer Intelligence |
+| V2 | PostgreSQL Analytics Layer |
+| V3 (Planned) | Power BI Dashboard Layer |
+| V4 (Planned) | Machine Learning Churn Prediction |
+
 # 📊 Customer Churn Intelligence Platform V2
 
 > An end-to-end Customer Analytics and Business Intelligence project that combines Python-based analytics with a PostgreSQL-powered Analytics Layer to identify churn drivers, segment customers, assess customer health, quantify revenue risk, and generate actionable business insights.
