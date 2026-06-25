@@ -98,33 +98,22 @@ The insights generated through this platform enable data-driven decision making 
 - Retention Priority Identification
 - High-Value Customer Analysis
 
-### 🚀 Project Highlights
+# ⭐ Project Highlights
 
-✔ End-to-End Analytics Pipeline
-
-✔ SQL-Powered Business Intelligence
-
-✔ Multi-Page Interactive Power BI Dashboard
-
-✔ Customer Health Scoring Engine
-
-✔ Revenue Risk Analytics
-
-✔ Executive-Level Reporting
-
-✔ Business-Oriented Insights
-
-✔ Production-Style Analytics Workflow
+- 📊 End-to-End Analytics Platform
+- 🗄 Enterprise PostgreSQL Analytics Layer
+- 📈 Interactive Power BI Dashboard
+- 👥 Customer Segmentation Engine
+- ❤️ Customer Health Score
+- 💰 Revenue Intelligence
+- 🚨 Retention Action Center
+- 📉 Revenue Risk Analysis
+- 📚 Comprehensive Documentation
+- 🚀 Continuous Version Evolution
+- 💼 Real-World Business Use Case
+- 🎯 Portfolio-Ready Project
 
 ---
-
-# 💼 Business Use Case
-
-Imagine you are a Business Intelligence Analyst working for a subscription-based telecommunications company.
-
-The leadership team wants a centralized analytics solution that enables them to monitor customer health, identify churn risks, analyze revenue exposure, understand customer behavior, and prioritize retention efforts through interactive dashboards.
-
-The **Customer Churn Intelligence Platform** addresses these challenges by integrating data engineering, analytics, SQL, and business intelligence into a unified reporting solution that supports data-driven business decisions.
 
 # 🏗️ Project Architecture
 
@@ -226,37 +215,6 @@ The project is designed around a production-style analytics pipeline where each 
 | Business Intelligence | Interactive Reporting | Power BI |
 | Version Control | Project Management | Git & GitHub |
 
----
-
-# ⚙️ System Components
-
-### 📂 Data Layer
-
-Responsible for ingesting and cleaning raw customer data before loading it into the analytics database.
-
----
-
-### 🗄 Database Layer
-
-Stores structured customer information inside PostgreSQL and serves as the primary data source for analytical queries.
-
----
-
-### 📊 SQL Analytics Layer
-
-Transforms raw transactional data into meaningful business information through reusable SQL scripts, Views, Common Table Expressions (CTEs), Window Functions, and KPI calculations.
-
----
-
-### 📈 Business Intelligence Layer
-
-Provides interactive dashboards that allow business users to explore customer behavior, monitor KPIs, analyze revenue, and identify customers requiring retention efforts.
-
----
-
-### 👨‍💼 Decision Layer
-
-Converts analytical insights into business actions that support executive reporting, customer retention strategies, and revenue optimization.
 
 ---
 
@@ -328,11 +286,11 @@ By integrating SQL analytics with interactive dashboards, this platform enables 
 
 | Executive Overview | Customer Analytics |
 |:------------------:|:------------------:|
-| <img src="screenshots/executive_overview.png" width="100%"> | <img src="screenshots/customer_analytics.png" width="100%"> |
+| <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\executive_overview.png" width="100%"> | <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\customer_analytics.png" width="100%"> |
 
 | Revenue Intelligence | Retention Action Center |
 |:---------------------:|:-----------------------:|
-| <img src="screenshots/revenue_intelligence.png" width="100%"> | <img src="screenshots/retention_action_center.png" width="100%"> |
+| <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\revenue_intelligence.png" width="100%"> | <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\retention_action_center.png" width="100%"> |
 
 ---
 
@@ -884,131 +842,7 @@ Rather than focusing on a single technology, the platform integrates **Python**,
 
 ---
 
-## 🚀 What Makes This Project Different?
-
-### ✅ End-to-End Analytics Pipeline
-
-Instead of treating data analysis as an isolated notebook, the project follows a structured analytics workflow:
-
-```text
-Raw Dataset
-      │
-      ▼
-Data Cleaning
-      │
-      ▼
-Exploratory Data Analysis
-      │
-      ▼
-PostgreSQL Database
-      │
-      ▼
-SQL Analytics Layer
-      │
-      ▼
-Interactive Power BI Dashboard
-      │
-      ▼
-Business Decision Making
-```
-
-This architecture closely resembles how Business Intelligence projects are developed in enterprise environments.
-
----
-
-## 🗄 Enterprise SQL Implementation
-
-Rather than using SQL only for simple SELECT statements, the project demonstrates practical SQL concepts used in production systems.
-
-Implemented concepts include:
-
-- SQL Views
-- Common Table Expressions (CTEs)
-- Window Functions
-- Aggregate Analysis
-- Business KPI Generation
-- Customer Ranking
-- Customer Segmentation
-- Revenue Intelligence
-- Health Score Calculation
-
----
-
-## 📊 Executive Dashboard Design
-
-Instead of building a single dashboard page, the project includes a complete multi-page reporting solution.
-
-### Executive Overview
-
-Provides executives with an overall business summary.
-
----
-
-### Customer Analytics
-
-Explores customer demographics, services, and behavioral trends.
-
----
-
-### Revenue Intelligence
-
-Measures profitability, revenue concentration, and financial exposure.
-
----
-
-### Retention Action Center
-
-Prioritizes customers requiring immediate retention efforts.
-
----
-
-## 💼 Business-Oriented Analytics
-
-The project focuses on solving business problems rather than only presenting data.
-
-Key analytical outputs include:
-
-- Customer Segmentation
-- Customer Health Score
-- Revenue at Risk
-- Customer Lifetime Value
-- High-Risk Customer Identification
-- Retention Priority Analysis
-- Executive KPI Monitoring
-
-Each analytical component supports strategic decision-making.
-
----
-
-## 🎯 Designed Like a Real BI Project
-
-The repository is organized using a modular architecture where:
-
-- Data preparation is separated from SQL analytics.
-- SQL analytics are separated from dashboard development.
-- Dashboard design is separated from documentation.
-
-This structure improves maintainability while reflecting professional development practices.
-
----
-
-## 📈 Continuous Project Evolution
-
-The platform has been developed incrementally through multiple versions.
-
-| Version | Focus |
-|----------|--------------------------------------------|
-| **V1** | Python Analytics |
-| **V2** | PostgreSQL Analytics Layer |
-| **V3** | Interactive Power BI Dashboard |
-| **V4** | Machine Learning (Planned) |
-
-Each version builds upon the previous one, demonstrating continuous learning, iterative improvement, and scalable project development.
-
----
-
-
-## 🎓 Learning Journey
+# 🎓 Learning Journey
 
 This repository also represents my personal learning journey in Data Analytics and Business Intelligence.
 
@@ -1018,22 +852,6 @@ This approach helped me understand not only individual tools but also how they i
 
 The next planned version (V4) will extend the platform with Machine Learning models for churn prediction, allowing the project to evolve from descriptive analytics to predictive analytics.
 
----
-
-# ⭐ Project Highlights
-
-- 📊 End-to-End Analytics Platform
-- 🗄 Enterprise PostgreSQL Analytics Layer
-- 📈 Interactive Power BI Dashboard
-- 👥 Customer Segmentation Engine
-- ❤️ Customer Health Score
-- 💰 Revenue Intelligence
-- 🚨 Retention Action Center
-- 📉 Revenue Risk Analysis
-- 📚 Comprehensive Documentation
-- 🚀 Continuous Version Evolution
-- 💼 Real-World Business Use Case
-- 🎯 Portfolio-Ready Project
 
 ---
 
@@ -1055,48 +873,6 @@ The Customer Churn Intelligence Platform is designed as an evolving analytics pl
 | **V4.0.0** | 🔜 Planned | Machine Learning Churn Prediction |
 | **V5.0.0** | 🔮 Future | Streamlit Web Application & Model Deployment |
 
----
-
-## 🚀 Planned Enhancements
-
-### 🤖 Machine Learning
-
-- Logistic Regression
-- Decision Tree
-- Random Forest
-- XGBoost
-- Churn Probability Prediction
-- Feature Importance Analysis
-
----
-
-### 📈 Advanced Analytics
-
-- Customer Lifetime Value (CLV) Prediction
-- Revenue Forecasting
-- Customer Cohort Analysis
-- RFM Analysis
-- Retention Campaign Simulation
-
----
-
-### 🌐 Deployment
-
-- Streamlit Web Application
-- Interactive Model Predictions
-- Public Dashboard Deployment
-- Cloud Database Integration
-- Automated Data Refresh
-
----
-
-### 💼 Business Intelligence
-
-- Additional Power BI Reports
-- Executive KPI Monitoring
-- Advanced DAX Measures
-- Forecasting Visualizations
-- Drill-through Reports
 
 ---
 
@@ -1197,3 +973,4 @@ As the project evolves, future versions will introduce **Machine Learning**, **p
 **Happy Learning! 🚀**
 
 </div>
+
