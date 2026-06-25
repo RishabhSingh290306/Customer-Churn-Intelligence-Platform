@@ -286,11 +286,11 @@ By integrating SQL analytics with interactive dashboards, this platform enables 
 
 | Executive Overview | Customer Analytics |
 |:------------------:|:------------------:|
-| <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\executive_overview.png" width="100%"> | <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\customer_analytics.png" width="100%"> |
+| <img src="screenshots/executive_overview.png" width="100%"> | <img src="screenshots/customer_analytics.png" width="100%"> |
 
 | Revenue Intelligence | Retention Action Center |
 |:---------------------:|:-----------------------:|
-| <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\revenue_intelligence.png" width="100%"> | <img src="D:\Customer-Churn-Intelligence-Platform\screenshots\retention_action_center.png" width="100%"> |
+| <img src="screenshots/revenue_intelligence.png" width="100%"> | <img src="screenshots/retention_action_center.png" width="100%"> |
 
 ---
 
