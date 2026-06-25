@@ -456,34 +456,6 @@ The platform enables organizations to:
 
 ---
 
-# 🚀 Highlights
-
-✔ End-to-End Analytics Workflow
-
-✔ Enterprise-Style SQL Analytics Layer
-
-✔ Multi-Page Power BI Executive Dashboard
-
-✔ Customer Health Score Engine
-
-✔ Revenue Intelligence Framework
-
-✔ Customer Segmentation Engine
-
-✔ Revenue Risk Analysis
-
-✔ Interactive Business Dashboards
-
-✔ Executive KPI Monitoring
-
-✔ Production-Style Project Architecture
-
-✔ Real Business Use Case
-
-✔ Portfolio-Ready Documentation
-
----
-
 # 💼 Skills Demonstrated
 
 ### Data Analytics
